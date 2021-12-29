@@ -19,11 +19,13 @@ Data Preprocessing
 Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
  * When deciding how many neurons and layers that should be included in a neural network it is important to consider how many input features are in the model. This model has been fitted with 2 hidden layers consisting of 80 nodes, and 30 nodes, respectively. The model's two hidden layers have relu activation functions, and an output layer using the sigmoid function.
-(insert 1a_model_summary)
+![1a_model_summary](https://user-images.githubusercontent.com/88510296/147705468-1693dab1-312f-4fae-b418-0321b232337e.png)
+
 
 * Were you able to achieve the target model performance?
  * The neural network model did not meet the target performance. The model's accuracy only achieved 72.9% accuracy.
-(insert 1b_model_accuracy_eval)
+![1b_model_accuracy_eval](https://user-images.githubusercontent.com/88510296/147705482-b449100c-0bc6-4173-b4d9-5ed6c47cfaca.png)
+
 
 * What steps did you take to try and increase model performance?
  * Three additional tests were performed to try and boost model performance; additional hidden nodes, additional hidden nodes and layers, and more nodes, layers, and changed activation functions. None of these changes made an improvement to the accuracy of the model.
